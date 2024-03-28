@@ -1,0 +1,116 @@
+@import url('../../global.css');
+.footer-section{
+    width: 100%;
+    height: 563.12px;
+    background: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section .container{
+    margin-top: 63.5px;
+    width: 1140px;
+    height: 280px;
+    
+    display: flex;
+}
+.footer-section .container .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-section .container .left .head{
+    width: 149px;
+    height: 36.23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-section .container .left .head svg{
+    margin: 0;
+    width: 35px;
+    height: 36.23px;
+}
+.footer-section .container .left .head h3{
+    margin: 0;
+    color: var(--color-font-dark);
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-section .container .left .head h3 span{
+    margin: 0;
+    color: var(--color-font-dark);
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-section .container .left p{
+    margin-top: 20px;
+    width: 340px;
+    height: 61.57px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-font-light);
+}
+.footer-section .container .left p span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-font-light);
+}
+.footer-section .container .left .social-icon{
+    margin-top: 20px;
+    width: 140.8px;
+    height: 33.6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-section .container .left .social-icon .img{
+    width: 33.6px;
+    height: 33.6px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 13px 18px 0px #11132314;
+
+}
+.footer-section .container .left h5{
+    margin-top: 20px;
+    width: 132px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #AFB5C0;
+}
+.footer-section .container .left h5 span{
+    font-weight: 500;
+}
+.footer-section .container .right{
+    width: 50%;
+    display: flex;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-section .container .right .column{
+    width: 123px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-section .container .right .column p{
+    height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-font-dark);
+}
+.footer-section .container .right .column span{
+    margin: 0;
+    width: 124px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-font-light);
+    margin-top: 20px;
+}

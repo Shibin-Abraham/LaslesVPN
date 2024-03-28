@@ -1,0 +1,237 @@
+@import url('../../global.css');
+.hero-container{
+    background: linear-gradient(to bottom, rgb(255, 255, 255,1) 0%,rgba(255, 255, 255, 0.601) 100%);
+    width: 100%;
+    /*height: 1390.2px;
+    margin-top: 88.49px; 88.49*/
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-container section{
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90.62px;
+}
+.hero-container section .content-box{
+    /*margin-top: 88.49px;*/
+    width: 555px;
+    margin-top: 44.24px;
+    /*height: 382.44px;*/
+    height: 473.06px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hero-container section .content-box h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--color-font-dark);
+}
+.hero-container section .content-box h1 span{
+    font-weight: 700;
+}
+.hero-container section .content-box p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-font-light);
+    line-height: 30px;
+}
+.hero-container section .content-box p span{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-font-light);
+}
+.hero-container section .content-box button{
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    border: none;
+    background: var(--color-hero);
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: rgba(245, 56, 56, 0.349) 0px 30px 20px -15px;
+    transition: all ease .5s;
+}
+.hero-container section .content-box button:hover{
+    width: 255px;
+    box-shadow: rgba(245, 56, 56, 0.482) 0px 30px 20px -15px;
+}
+.hero-container section .img-box{
+    margin-top: 44.24px;
+    /*margin-top: 88.49px;*/
+    margin-left: 40.76px;
+    width: 611.24px;
+    height: 382.44px;
+}
+.hero-container section .container-box{
+    margin-top: 103px;
+    width: 1140px;
+    height: 200px;
+    border-radius: 10px;
+    background: var(--color-white);
+    box-shadow: rgba(73, 72, 72, 0.184) 0px 25px 20px -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-container section .container-box .left{
+    height: 125.57px;
+    width: 365px;
+    border-right: 3px solid #EEEFF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-container section .container-box .midd{
+    height: 125.57px;
+    width: 365px;
+    border-right: 3px solid #EEEFF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-container section .container-box .right{
+    height: 125.57px;
+    width: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-container section .container-box .left div{
+    height: 65px;
+    width: 145.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-container section .container-box .left div .text-box{
+    height: 65px;
+    width: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Rubik;
+}
+.hero-container section .container-box .left div .text-box span{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--color-font-dark);
+}
+.hero-container section .container-box .left div .text-box p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-font-light);
+}
+.hero-container section .container-box .midd div{
+    height: 65px;
+    width: 182.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-container section .container-box .midd div .text-box{
+    height: 65px;
+    width: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Rubik;
+}
+.hero-container section .container-box .midd div .text-box span{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--color-font-dark);
+}
+.hero-container section .container-box .midd div .text-box p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-font-light);
+}
+.hero-container section .container-box .right div{
+    height: 65px;
+    width: 162.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-container section .container-box .right div .text-box{
+    height: 65px;
+    width: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Rubik;
+}
+.hero-container section .container-box .right div .text-box span{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--color-font-dark);
+}
+.hero-container section .container-box .right div .text-box p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-font-light);
+}
+.hero-container section .bottom-box{
+    width: 1105.48px;
+    height: 414.71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-container section .bottom-box img{
+    width: 508.12px;
+    height: 414.71px;
+    margin-top: 150px;
+}
+.hero-container section .bottom-box .content{
+    margin-top: 150px;
+    width: 427.88px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.hero-container section .bottom-box .content p{
+    font-size: 35px;
+    font-weight: 500;
+    color: var(--color-font-dark);
+    line-height: 50px;
+}
+.hero-container section .bottom-box .content span{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-font-light);
+    line-height: 30px;
+}
+.hero-container section .bottom-box .content .txt-bx{
+    width: 100%;
+}
+.hero-container section .bottom-box .content .txt-bx div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hero-container section .bottom-box .content .txt-bx div p{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-font-light);
+}
+.hero-container section .empty{
+    margin-top: 150px;
+    width: 700px;
+    height: 50px;
+}

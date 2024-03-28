@@ -1,0 +1,17 @@
+@import url('../../global.css');
+.sponser-box{
+    margin-top: 35.8px;
+    width: 100%;
+    height: 208.32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sponser-box .bx{
+    width: 1135.64px;
+    height: 100%;
+}
+.sponser-box .bx img{
+    width: 100%;
+    height: 100%;
+}

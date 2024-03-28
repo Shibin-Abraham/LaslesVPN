@@ -1,0 +1,56 @@
+@import url('../../global.css');
+.subcription{
+    margin-top: 65.03px;
+    width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.subcription .left-bx{
+    width: 410px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.subcription .left-bx h2{
+    color: var(--color-font-dark);
+    width: 371.61px;
+    height: 80px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+}
+.subcription .left-bx span{
+    margin: 0;
+    color: var(--color-font-light);
+    font-weight: 400;
+    font-size: 16px;
+}
+.subcription .right-bx{
+    width: 250px;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subcription .right-bx button{
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    background: var(--color-hero);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-white);
+    box-shadow: rgba(245, 56, 56, 0.349) 0px 30px 20px -15px;
+    transition: all ease .5s;
+}
+.subcription .right-bx button:hover{
+    box-shadow: rgba(245, 56, 56, 0.482) 0px 30px 20px -15px;
+}

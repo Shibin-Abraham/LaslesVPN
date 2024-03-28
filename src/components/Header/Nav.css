@@ -1,0 +1,103 @@
+@import url('../../global.css');
+.header{
+    width: 100%;
+    height: 90.62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+    background: var(--color-white);
+}
+.header .container{
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.header .container .logo{
+    width: 149px;
+    height: 36.23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .container .logo svg{
+    width: 35px;
+    height: 36.23px;
+}
+.header .container .logo p{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-font-dark);
+}
+.header .container .logo p span{
+    font-weight: 700;
+}
+.header .container .nav-bar{
+    width: 451px;
+    height: 36.23px;
+    margin-left: 157px;
+}
+.header .container .nav-bar ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    transition: all ease .5s;
+}
+.header .container .nav-bar ul li a{
+    color: var(--color-font-light);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header .container .nav-bar ul li a:hover{
+    color: var(--color-font-dark);
+}
+.header .container .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 157px;
+    width: 233px;
+    height: 45px;
+}
+.header .container .btn button:nth-child(1){
+    font-family: Rubik;
+    width: 53px;
+    height: 19px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-font-dark);
+    transition: all ease .5s;
+    cursor: pointer;
+}
+.header .container .btn button:nth-child(1):hover{
+    color: var(--color-hero);
+}
+.header .container .btn button:nth-child(2){
+    font-family: Rubik;
+    width: 150px;
+    height: 45px;
+    background: none;
+    border: 1px solid var(--color-hero);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-hero);
+    border-radius: 50px;
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+}
+.header .container .btn button:nth-child(2):hover{
+    background: var(--color-hero);
+    color: var(--color-white);
+}
